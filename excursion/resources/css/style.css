@@ -1,0 +1,37 @@
+html {
+  font-family: Verdana;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.download_excursion {
+  color: Aquamarine;
+  font-size: 16px;
+}
+
+.travel_guide {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.excursion_remembers {
+  font-size: 21px;
+  color: Gray;
+}
+
+.footer {
+  text-align: right;
+  color: Gray;
+}
