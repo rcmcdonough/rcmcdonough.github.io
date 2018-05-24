@@ -24,3 +24,9 @@ beach paradise project
 
 ### [dasmoto](dasmoto)
 dasmoto project - needed to be submitted, website publish using github pages
+
+### [excursion](excursion)
+excursion project - used minimal git branching, didnt need to submit
+
+- added images and video
+- added css for specific styling requirements
