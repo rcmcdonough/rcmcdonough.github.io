@@ -1,0 +1,68 @@
+/* set so boxs are the same size
+ *   http://learnlayout.com/box-sizing.html
+ */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+ * below code resets the default margin and padding values of all HTML elements.
+ * It is often the first CSS rule in an external stylesheet.
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* element with class donate is still on page but is hidden
+ */
+.donate {
+  visibility: hidden;
+}
+
+/* multi-column text */
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+}
+
+/* simple flexbox layout
+ *   http://learnlayout.com/flexbox.html
+ */
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  width: 200px;
+}
+.flex-column {
+  -webkit-flex: 1;
+          flex: 1;
+}
+
+/* box model
+ *  content: has width, height
+ *  border: has width, style, color
+ *    default border is medium none color
+ *  border-radius: gives the box curve
+ *  padding: top, right, bottom, left
+ *  margin:
+ */
+.box_sizing_examples {
+  border: 3px solid coral;
+  width: 300px;
+  height: 500px;
+  border-radius: 5px;
+  padding: 20px 30px; /* top/bottom: 20, left/right: 30 */
+  padding: 10px 20px 30px 40px: /* top 10, right 20, bottom 30, left 40 */
+  margin: 10px 20px 30px 40px: /* top 10, right 20, bottom 30, left 40 */
+  overflow: scroll;
+}
